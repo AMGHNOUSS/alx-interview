@@ -3,6 +3,9 @@
 
 
 def pascal_triangle(n):
+    """ Create a function hat returns a list of lists
+    of integers representing the Pascal’s triangle of n
+    """
     res = []
     if (n > 0):
         for i in range(1, n + 1):
