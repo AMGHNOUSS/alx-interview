@@ -3,10 +3,8 @@
 
 
 def pascal_triangle(n):
-    if (n <= 0):
-        return None
-    else:
-        res = []
+    res = []
+    if (n > 0):
         for i in range(1, n + 1):
             item = []
             C = 1
