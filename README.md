@@ -13,4 +13,4 @@ All of the following folders are projects done during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
-| [`0x00-pascale_traingle`](https://github.com/AMGHNOUSS/alx-interview/tree/master/0x00-pascale_triangle) | It aims to learn about to create pascle triangle |
+| [`0x00-pascale_traingle`](https://github.com/AMGHNOUSS/alx-interview/tree/master/0x00-pascal_triangle) | It aims to learn about to create pascle triangle |
