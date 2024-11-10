@@ -9,7 +9,7 @@ if (len(sys.argv) != 2):
 n = sys.argv[1]
 
 if (not n.isdigit()):
-    print("N must be a number {}")
+    print("N must be a number")
     exit(1)
 
 n = int(n)
