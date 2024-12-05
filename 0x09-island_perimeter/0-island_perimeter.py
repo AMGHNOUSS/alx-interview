@@ -4,22 +4,21 @@
 
 def island_perimeter(grid):
     line = len(grid)
-    for items in grid:
-        row = len(items)
-        break
+    row = len(grid[0])
     sum = 0
     check = 0
-    for i in range(0, line):
-        for j in range(0, row):
+
+    for i in range(line):
+        for j in range(row):
             check = 0
             if (grid[i][j] == 1):
-                if (grid[i][j + 1] == 0):
+                if (j < row and grid[i][j + 1] == 0):
                     check += 1
-                if (grid[i][j - 1] == 0):
+                if (j > -1 and grid[i][j - 1] == 0):
                     check += 1
-                if (grid[i + 1][j] == 0):
+                if (i < line and grid[i + 1][j] == 0):
                     check += 1
-                if (grid[i - 1][j] == 0):
+                if (i > -1 and grid[i - 1][j] == 0):
                     check += 1
             sum += check
     return (sum)
