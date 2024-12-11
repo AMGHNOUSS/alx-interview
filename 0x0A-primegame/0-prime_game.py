@@ -7,7 +7,7 @@ def isWinner(x, nums):
     if x < 1 or not nums:
         return None
 
-    # Precompute prime numbers up to the maximum value in nums using the Sieve of Eratosthenes
+    # Precompute prime numbers up to the maximum value in nums
     max_n = max(nums)
     is_prime = [True] * (max_n + 1)
     is_prime[0] = is_prime[1] = False  # 0 and 1 are not primes
